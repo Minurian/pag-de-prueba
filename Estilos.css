@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  position: sticky;
+  text-decoration: none;
+}
+
+.content {
+  background-color: #d385e7;
+  font-family: "Kufam", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  margin-top: 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.cont-ban {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("Assets de la pagina de flashito/Carrusel del inicio/img3.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: "Kufam", sans-serif;
+  color: white;
+  background-color: #d385e780;
+}
+
+.container-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.marcas {
+  text-align: center;
+}
