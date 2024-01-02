@@ -109,3 +109,53 @@ input[type="submit"] {
 textarea {
   height: 300px;
 }
+
+.footer {
+  padding-top: 40px;
+  padding-left: 130px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: #d385e7;
+  width: 98.7vw;
+  height: 200px;
+
+  text-decoration: none;
+  font-family: "Kufam", sans-serif;
+
+  display: inline-flex;
+}
+
+a:hover {
+  color: #e9b8f6;
+  transition-duration: 200ms;
+}
+
+/* Botones del footer */
+.pf1,
+.com1,
+.faq1,
+.cont1,
+.shop1 {
+  display: inline-block;
+  width: 100px;
+}
+
+/* Botones del header */
+
+.pf0,
+.com0,
+.faq0,
+.cont0,
+.shop0 {
+  background-color: #d385e7;
+}
+
+.pf0,
+.com0,
+.faq0,
+.cont0,
+.shop0 :hover {
+}
