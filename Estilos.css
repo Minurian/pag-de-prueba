@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #d385e7;
+  font-family: "Kufam", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  margin-top: 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.cont-ban {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("Assets de la pagina de flashito/Carrusel del inicio/img3.jpg");
+  width: 98.7vw;
+  height: 80vh;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: "Kufam", sans-serif;
+  color: white;
+  background-color: #d385e780;
+}
+
+.marcas {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #4a4a4a;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.sub-cont {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* formulario de contacto  */
+
+.contact {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #4a4a4a;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+form {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid #d385e7;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  height: 50px;
+  background-color: #d385e7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: #d385e7;
+}
+
+.formulario-contact {
+  display: flex;
+  flex: row;
+  align-items: center;
+}
+
+textarea {
+  height: 300px;
+}
+
+/* Pie de pagina */
+
+.footer {
+  padding-top: 40px;
+  padding-left: 130px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: #d385e7;
+  width: 88.5vw;
+  height: 200px;
+
+  text-decoration: none;
+  font-family: "Kufam", sans-serif;
+
+  display: inline-flex;
+}
+
+a:hover {
+  color: #e9b8f6;
+  transition-duration: 200ms;
+}
+
+/* Botones del footer */
+.pf1,
+.com1,
+.faq1,
+.cont1,
+.shop1 {
+  display: inline-block;
+  width: 100px;
+}
+
+/* Botones del header */
+
+.pf0,
+.com0,
+.faq0,
+.cont0,
+.shop0 {
+  background-color: #d385e7;
+}
+
+.pf0,
+.com0,
+.faq0,
+.cont0,
+.shop0 :hover {
+}
