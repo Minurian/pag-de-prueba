@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -9,6 +15,9 @@ body {
   justify-content: space-around;
   position: sticky;
   text-decoration: none;
+
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .nav {
@@ -18,11 +27,23 @@ body {
   color: white;
 }
 
-.logo {
+/* .logo {
   margin-top: 5px;
   width: 55px;
   height: 55px;
   border-radius: 50%;
+} */
+
+.logotipo img {
+  margin-top: 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.logotipo:hover {
+  transform: scale(0.9);
+  transition-duration: 200ms;
 }
 
 a {
@@ -37,6 +58,7 @@ a {
   background-image: url("Assets de la pagina de flashito/Carrusel del inicio/img3.jpg");
   width: 98.7vw;
   height: 80vh;
+
   background-size: cover;
 }
 
@@ -48,6 +70,7 @@ h1 {
   background-color: #d385e780;
 }
 
+/* Marcas con las que ha trabajado */
 .marcas {
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -56,11 +79,22 @@ h1 {
   font-size: 2.5rem;
 }
 
-.sub-cont {
+.line-1 {
+  width: 300px;
+  height: 5px;
+  background-color: #4a4a4a;
+}
+
+.icons-marcas {
   display: flex;
   flex: row;
   align-items: center;
   justify-content: space-around;
+}
+
+.icons-marcas img:hover {
+  transform: scale(1.5);
+  transition-duration: 200ms;
 }
 
 /* formulario de contacto  */
@@ -144,19 +178,107 @@ a:hover {
   width: 100px;
 }
 
-/* Botones del header */
+/* iconos de redes */
 
-.pf0,
-.com0,
-.faq0,
-.cont0,
-.shop0 {
-  background-color: #d385e7;
+.ig-icon,
+.tw-icon,
+.yt-icon,
+.twt-icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
 }
 
-.pf0,
-.com0,
-.faq0,
-.cont0,
-.shop0 :hover {
+.ig-icon,
+.tw-icon,
+.yt-icon,
+.twt-icon :hover {
+  fill: #e9b8f6;
+  transition-duration: 200ms;
+}
+
+/* Redes iconos */
+
+.redes svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.redes svg:hover {
+  fill: #e9b8f6;
+  transition-duration: 200ms;
+  /* transform: rotate(360deg); */
+  transform: scale(1.5);
+  /* transition: fill 0.5s ease; */
+}
+
+.tittle-portf {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #4a4a4a;
+
+  text-align: center;
+  margin-right: 110px;
+  margin-bottom: 60px;
+}
+
+.portfolio-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 90px;
+
+  margin-right: 105px;
+  margin-bottom: 50px;
+
+  font-family: "Kufam", sans-serif;
+}
+
+.portfolio-cont a {
+  color: white;
+  width: 150px;
+  height: 30px;
+  background-color: #d385e7;
+  text-align: center;
+  border-radius: 5px;
+
+  /* margin-left: 60px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-cont a:hover {
+  color: #e9b8f6;
+}
+
+/* Galeria */
+
+.gallery-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 5rem auto 0 auto;
+  flex-wrap: wrap;
+}
+
+.gallery-container img {
+  width: 250px;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.1);
+  transition-duration: 200ms;
+}
+
+@media (max-width: 572px) {
+  body {
+    height: 100%;
+  }
 }
